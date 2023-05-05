@@ -1,0 +1,23 @@
+.homeContent {
+	margin-top: 5%;
+	padding: 15px;
+}
+
+.homeDescription {
+	margin: 20px auto 0;
+	font-size: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 30px;
+}
+
+.homeDescription h1 {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 45px;
+}
+
+@media (max-width: 500px) {
+	.homeContent {
+		margin-top: 10%;
+	}
+}

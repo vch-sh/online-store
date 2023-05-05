@@ -1,0 +1,32 @@
+.scrollToTop {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	cursor: pointer;
+}
+
+.scrollToTop div {
+	border: 1px solid black;
+	padding: 12px;
+	font-size: 30px;
+	border-radius: 15px;
+	box-shadow: 0 0 2px black;
+}
+
+@media (max-width: 1100px) {
+	.scrollToTop {
+		right: 30px;
+	}
+}
+
+@media (max-width: 500px) {
+	.scrollToTop {
+		right: 10px;
+		bottom: 30px;
+	}
+	.scrollToTop div {
+		font-size: 20px;
+		padding: 8px;
+		border-radius: 8px;
+	}
+}
