@@ -1,6 +1,6 @@
 {
-  "name": "99-template",
-  "homepage": "https://vch-sh.github.io/react-online-store",
+  "name": "online-store",
+  "homepage": "https://vch-sh.github.io/online-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
